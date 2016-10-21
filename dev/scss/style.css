@@ -1,0 +1,478 @@
+/* FONTS */
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+/* BASE */
+/*  Reset & Basics (Inspired by E. Meyers)
+================================================== */
+/* line 3, C:/wamp/www/proovitood/global-gaming-estonia/test1/dev/scss/base/_reset.scss */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* line 11, C:/wamp/www/proovitood/global-gaming-estonia/test1/dev/scss/base/_reset.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+/* line 14, C:/wamp/www/proovitood/global-gaming-estonia/test1/dev/scss/base/_reset.scss */
+body {
+  line-height: 1; }
+
+/* line 17, C:/wamp/www/proovitood/global-gaming-estonia/test1/dev/scss/base/_reset.scss */
+ol, ul {
+  list-style: none; }
+
+/* line 20, C:/wamp/www/proovitood/global-gaming-estonia/test1/dev/scss/base/_reset.scss */
+blockquote, q {
+  quotes: none; }
+
+/* line 24, C:/wamp/www/proovitood/global-gaming-estonia/test1/dev/scss/base/_reset.scss */
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+/* line 28, C:/wamp/www/proovitood/global-gaming-estonia/test1/dev/scss/base/_reset.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* line 2, C:/wamp/www/proovitood/global-gaming-estonia/test1/dev/scss/base/_base.scss */
+body {
+  background: #05a7c3;
+  background: -moz-linear-gradient(top, #05a7c3 0%, #0db6b1 50%, #07abc0 100%);
+  background: -webkit-linear-gradient(top, #05a7c3 0%, #0db6b1 50%, #07abc0 100%);
+  background: linear-gradient(to bottom, #05a7c3 0%, #0db6b1 50%, #07abc0 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#05a7c3', endColorstr='#07abc0',GradientType=0 );
+  background-attachment: fixed;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%; }
+
+/* line 15, C:/wamp/www/proovitood/global-gaming-estonia/test1/dev/scss/base/_base.scss */
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+/* COMPONENTS */
+/* line 1, C:/wamp/www/proovitood/global-gaming-estonia/test1/dev/scss/components/dashboard-modal/_dashboard-modal-layout.scss */
+.dashboard-modal {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  -ms-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-family: Raleway, sans-serif;
+  color: #2f2f2f; }
+  /* line 13, C:/wamp/www/proovitood/global-gaming-estonia/test1/dev/scss/components/dashboard-modal/_dashboard-modal-layout.scss */
+  .dashboard-modal .dashboard-modal__inside {
+    background-color: #fff;
+    border-radius: 10px;
+    width: 1100px;
+    -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.25); }
+  /* line 23, C:/wamp/www/proovitood/global-gaming-estonia/test1/dev/scss/components/dashboard-modal/_dashboard-modal-layout.scss */
+  .dashboard-modal .dashboard-modal__col-left, .dashboard-modal .dashboard-modal__col-right {
+    float: left;
+    position: relative;
+    min-height: 50px; }
+  /* line 28, C:/wamp/www/proovitood/global-gaming-estonia/test1/dev/scss/components/dashboard-modal/_dashboard-modal-layout.scss */
+  .dashboard-modal .dashboard-modal__col-left {
+    width: 350px;
+    margin-left: 30px;
+    margin-right: 20px; }
+  /* line 33, C:/wamp/www/proovitood/global-gaming-estonia/test1/dev/scss/components/dashboard-modal/_dashboard-modal-layout.scss */
+  .dashboard-modal .dashboard-modal__col-right {
+    width: 685px;
+    margin-right: 15px; }
+  /* line 38, C:/wamp/www/proovitood/global-gaming-estonia/test1/dev/scss/components/dashboard-modal/_dashboard-modal-layout.scss */
+  .dashboard-modal .divider {
+    width: 100%;
+    height: 2px;
+    background-color: #ededed; }
+
+/* line 3, C:/wamp/www/proovitood/global-gaming-estonia/test1/dev/scss/components/dashboard-modal/_dashboard-modal-header.scss */
+.dashboard-modal .nav {
+  margin-top: 35px;
+  margin-left: 10px; }
+
+/* line 7, C:/wamp/www/proovitood/global-gaming-estonia/test1/dev/scss/components/dashboard-modal/_dashboard-modal-header.scss */
+.dashboard-modal .nav__item {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  text-align: left;
+  font-size: 16px;
+  margin-right: 36px;
+  margin-bottom: 30px;
+  color: #99a7b7; }
+
+/* line 17, C:/wamp/www/proovitood/global-gaming-estonia/test1/dev/scss/components/dashboard-modal/_dashboard-modal-header.scss */
+.dashboard-modal .nav__item--active {
+  color: #2f2f2f; }
+
+/* line 20, C:/wamp/www/proovitood/global-gaming-estonia/test1/dev/scss/components/dashboard-modal/_dashboard-modal-header.scss */
+.dashboard-modal .nav__item--active:after {
+  content: '';
+  position: absolute;
+  background-color: #5093e1;
+  left: 0;
+  bottom: -31px;
+  width: 100%;
+  height: 4px; }
+
+/* line 30, C:/wamp/www/proovitood/global-gaming-estonia/test1/dev/scss/components/dashboard-modal/_dashboard-modal-header.scss */
+.dashboard-modal .create-new, .dashboard-modal .close-modal {
+  cursor: pointer;
+  position: absolute; }
+
+/* line 34, C:/wamp/www/proovitood/global-gaming-estonia/test1/dev/scss/components/dashboard-modal/_dashboard-modal-header.scss */
+.dashboard-modal .create-new {
+  color: #5093e1;
+  top: 36px; }
+
+/* line 38, C:/wamp/www/proovitood/global-gaming-estonia/test1/dev/scss/components/dashboard-modal/_dashboard-modal-header.scss */
+.dashboard-modal .close-modal {
+  top: 27px;
+  right: 16px;
+  width: 34px;
+  height: 29px;
+  background-image: url(../img/icon-close.png); }
+
+/* line 3, C:/wamp/www/proovitood/global-gaming-estonia/test1/dev/scss/components/dashboard-modal/_dashboard-modal-under-header.scss */
+.dashboard-modal .shearch {
+  position: relative;
+  margin-top: 22px; }
+
+/* line 7, C:/wamp/www/proovitood/global-gaming-estonia/test1/dev/scss/components/dashboard-modal/_dashboard-modal-under-header.scss */
+.dashboard-modal .shearch:after {
+  content: '';
+  position: absolute;
+  background-image: url(../img/icon-loupe.png);
+  top: -1px;
+  left: -2px;
+  width: 24px;
+  height: 26px; }
+
+/* line 16, C:/wamp/www/proovitood/global-gaming-estonia/test1/dev/scss/components/dashboard-modal/_dashboard-modal-under-header.scss */
+.dashboard-modal .shearch__input {
+  border: none;
+  font-size: 17px;
+  font-family: Raleway, sans-serif;
+  color: #99a7b7;
+  margin-left: 25px;
+  padding-left: 12px;
+  width: 320px; }
+
+/* line 26, C:/wamp/www/proovitood/global-gaming-estonia/test1/dev/scss/components/dashboard-modal/_dashboard-modal-under-header.scss */
+.dashboard-modal .big-plus {
+  cursor: pointer;
+  position: absolute;
+  top: 13px;
+  right: 14px;
+  background-image: url(../img/icon-big-plus.png);
+  background-repeat: no-repeat;
+  width: 38px;
+  height: 38px; }
+
+/* line 3, C:/wamp/www/proovitood/global-gaming-estonia/test1/dev/scss/components/dashboard-modal/_dashboard-modal-[reservation+table].scss */
+.dashboard-modal .heading {
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: bold;
+  margin-bottom: 42px; }
+
+/* line 3, C:/wamp/www/proovitood/global-gaming-estonia/test1/dev/scss/components/dashboard-modal/_dashboard-modal-reservation.scss */
+.dashboard-modal .shearch {
+  position: relative;
+  margin-top: 22px; }
+
+/* line 7, C:/wamp/www/proovitood/global-gaming-estonia/test1/dev/scss/components/dashboard-modal/_dashboard-modal-reservation.scss */
+.dashboard-modal .shearch:after {
+  content: '';
+  position: absolute;
+  background-image: url(../img/icon-loupe.png);
+  top: -1px;
+  left: -2px;
+  width: 24px;
+  height: 26px; }
+
+/* line 16, C:/wamp/www/proovitood/global-gaming-estonia/test1/dev/scss/components/dashboard-modal/_dashboard-modal-reservation.scss */
+.dashboard-modal .shearch__input {
+  border: none;
+  font-size: 17px;
+  font-family: Raleway, sans-serif;
+  color: #99a7b7;
+  margin-left: 25px;
+  padding-left: 12px;
+  width: 320px; }
+
+/* line 27, C:/wamp/www/proovitood/global-gaming-estonia/test1/dev/scss/components/dashboard-modal/_dashboard-modal-reservation.scss */
+.dashboard-modal .reservation {
+  margin-top: 50px; }
+
+/* line 31, C:/wamp/www/proovitood/global-gaming-estonia/test1/dev/scss/components/dashboard-modal/_dashboard-modal-reservation.scss */
+.dashboard-modal .reservation__table {
+  font-size: 13px; }
+
+/* line 36, C:/wamp/www/proovitood/global-gaming-estonia/test1/dev/scss/components/dashboard-modal/_dashboard-modal-reservation.scss */
+.dashboard-modal .reservation__table-col {
+  position: relative;
+  padding-bottom: 41px;
+  width: 110px; }
+
+/* line 41, C:/wamp/www/proovitood/global-gaming-estonia/test1/dev/scss/components/dashboard-modal/_dashboard-modal-reservation.scss */
+.dashboard-modal .reservation__table-col--text-box {
+  line-height: 22px;
+  padding-bottom: 35px; }
+
+/* line 46, C:/wamp/www/proovitood/global-gaming-estonia/test1/dev/scss/components/dashboard-modal/_dashboard-modal-reservation.scss */
+.dashboard-modal .reservation__nav {
+  position: absolute;
+  top: -7px;
+  left: 43px; }
+
+/* line 51, C:/wamp/www/proovitood/global-gaming-estonia/test1/dev/scss/components/dashboard-modal/_dashboard-modal-reservation.scss */
+.dashboard-modal .reservation__nav-left, .dashboard-modal .reservation__nav-right {
+  cursor: pointer;
+  display: inline-block;
+  background-image: url(../img/icon-arrow-btns.png);
+  background-repeat: no-repeat;
+  width: 26px;
+  height: 26px; }
+
+/* line 59, C:/wamp/www/proovitood/global-gaming-estonia/test1/dev/scss/components/dashboard-modal/_dashboard-modal-reservation.scss */
+.dashboard-modal .reservation__nav-left {
+  background-position: 0 0; }
+
+/* line 62, C:/wamp/www/proovitood/global-gaming-estonia/test1/dev/scss/components/dashboard-modal/_dashboard-modal-reservation.scss */
+.dashboard-modal .reservation__nav-right {
+  background-position: -30px 0px; }
+
+/* line 66, C:/wamp/www/proovitood/global-gaming-estonia/test1/dev/scss/components/dashboard-modal/_dashboard-modal-reservation.scss */
+.dashboard-modal .reservation__origin {
+  display: inline-block;
+  position: relative;
+  left: -3px;
+  vertical-align: middle;
+  height: 30px;
+  border: 1px solid #e8e8e8;
+  border-radius: 4px; }
+
+/* line 75, C:/wamp/www/proovitood/global-gaming-estonia/test1/dev/scss/components/dashboard-modal/_dashboard-modal-reservation.scss */
+.dashboard-modal .reservation__origin-choice {
+  cursor: pointer;
+  float: left;
+  height: 30px;
+  line-height: 30px;
+  padding-left: 15px;
+  padding-right: 15px; }
+
+/* line 83, C:/wamp/www/proovitood/global-gaming-estonia/test1/dev/scss/components/dashboard-modal/_dashboard-modal-reservation.scss */
+.dashboard-modal .reservation__origin-choice--active {
+  border-radius: 4px;
+  background-color: #5093e1;
+  color: #fff; }
+
+/* line 3, C:/wamp/www/proovitood/global-gaming-estonia/test1/dev/scss/components/dashboard-modal/_dashboard-modal-table.scss */
+.dashboard-modal .wrapper {
+  position: relative;
+  margin-top: 94px;
+  margin-bottom: 39px;
+  margin-left: 15px; }
+
+/* line 9, C:/wamp/www/proovitood/global-gaming-estonia/test1/dev/scss/components/dashboard-modal/_dashboard-modal-table.scss */
+.dashboard-modal .availability {
+  position: absolute;
+  top: 0px;
+  right: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: #99a7b7;
+  text-transform: uppercase; }
+
+/* line 20, C:/wamp/www/proovitood/global-gaming-estonia/test1/dev/scss/components/dashboard-modal/_dashboard-modal-table.scss */
+.dashboard-modal .classification {
+  margin-bottom: 23px; }
+
+/* line 23, C:/wamp/www/proovitood/global-gaming-estonia/test1/dev/scss/components/dashboard-modal/_dashboard-modal-table.scss */
+.dashboard-modal .classification-part {
+  display: inline-block;
+  position: relative;
+  margin-right: 79px;
+  font-size: 14px; }
+
+/* line 29, C:/wamp/www/proovitood/global-gaming-estonia/test1/dev/scss/components/dashboard-modal/_dashboard-modal-table.scss */
+.dashboard-modal .classification-part:after {
+  content: '';
+  position: absolute;
+  top: 4px;
+  right: -18px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 5px 5px 0;
+  border-color: #5093e1 transparent transparent; }
+
+/* line 41, C:/wamp/www/proovitood/global-gaming-estonia/test1/dev/scss/components/dashboard-modal/_dashboard-modal-table.scss */
+.dashboard-modal .filter {
+  position: relative; }
+
+/* line 44, C:/wamp/www/proovitood/global-gaming-estonia/test1/dev/scss/components/dashboard-modal/_dashboard-modal-table.scss */
+.dashboard-modal .filter-instruction, .dashboard-modal .filter-list, .dashboard-modal .filter-list-item, .dashboard-modal .filter-add {
+  display: inline-block;
+  height: 26px;
+  line-height: 26px; }
+
+/* line 49, C:/wamp/www/proovitood/global-gaming-estonia/test1/dev/scss/components/dashboard-modal/_dashboard-modal-table.scss */
+.dashboard-modal .filter-instruction {
+  font-size: 14px;
+  margin-right: 17px; }
+
+/* line 53, C:/wamp/www/proovitood/global-gaming-estonia/test1/dev/scss/components/dashboard-modal/_dashboard-modal-table.scss */
+.dashboard-modal .filter-list-item, .dashboard-modal .filter-add {
+  cursor: pointer;
+  position: relative; }
+
+/* line 57, C:/wamp/www/proovitood/global-gaming-estonia/test1/dev/scss/components/dashboard-modal/_dashboard-modal-table.scss */
+.dashboard-modal .filter-list-item {
+  font-size: 13px;
+  color: #fff;
+  background-color: #5093e1;
+  border-radius: 13px;
+  padding-left: 9px;
+  padding-right: 27px; }
+
+/* line 65, C:/wamp/www/proovitood/global-gaming-estonia/test1/dev/scss/components/dashboard-modal/_dashboard-modal-table.scss */
+.dashboard-modal .filter-list-item:after {
+  content: 'x';
+  font-size: 11px;
+  position: absolute;
+  top: 0;
+  right: 12px; }
+
+/* line 72, C:/wamp/www/proovitood/global-gaming-estonia/test1/dev/scss/components/dashboard-modal/_dashboard-modal-table.scss */
+.dashboard-modal .filter-add {
+  top: 9px;
+  background-image: url(../img/icon-small-plus.png);
+  background-repeat: no-repeat;
+  width: 26px;
+  height: 26px; }
+
+/* line 81, C:/wamp/www/proovitood/global-gaming-estonia/test1/dev/scss/components/dashboard-modal/_dashboard-modal-table.scss */
+.dashboard-modal .tbody__item--pos, .dashboard-modal .thead__item--pos {
+  width: 60px;
+  text-transform: uppercase; }
+
+/* line 85, C:/wamp/www/proovitood/global-gaming-estonia/test1/dev/scss/components/dashboard-modal/_dashboard-modal-table.scss */
+.dashboard-modal .tbody__item--section, .dashboard-modal .thead__item--section {
+  width: 130px; }
+
+/* line 88, C:/wamp/www/proovitood/global-gaming-estonia/test1/dev/scss/components/dashboard-modal/_dashboard-modal-table.scss */
+.dashboard-modal .tbody__item--type, .dashboard-modal .thead__item--type {
+  width: 190px; }
+
+/* line 91, C:/wamp/www/proovitood/global-gaming-estonia/test1/dev/scss/components/dashboard-modal/_dashboard-modal-table.scss */
+.dashboard-modal .tbody__item--min, .dashboard-modal .thead__item--min, .dashboard-modal .tbody__item--max, .dashboard-modal .thead__item--max {
+  width: 70px; }
+
+/* line 94, C:/wamp/www/proovitood/global-gaming-estonia/test1/dev/scss/components/dashboard-modal/_dashboard-modal-table.scss */
+.dashboard-modal .tbody__item--blocked, .dashboard-modal .thead__item--blocked {
+  width: 124px; }
+
+/* line 97, C:/wamp/www/proovitood/global-gaming-estonia/test1/dev/scss/components/dashboard-modal/_dashboard-modal-table.scss */
+.dashboard-modal .tbody__item--remove, .dashboard-modal .thead__item--remove {
+  width: 30px; }
+
+/* line 102, C:/wamp/www/proovitood/global-gaming-estonia/test1/dev/scss/components/dashboard-modal/_dashboard-modal-table.scss */
+.dashboard-modal .table {
+  border-collapse: separate;
+  border-spacing: 0 5px;
+  font-size: 13px; }
+
+/* line 107, C:/wamp/www/proovitood/global-gaming-estonia/test1/dev/scss/components/dashboard-modal/_dashboard-modal-table.scss */
+.dashboard-modal .thead__item {
+  text-align: left;
+  padding-bottom: 24px;
+  color: #99a7b7; }
+
+/* line 112, C:/wamp/www/proovitood/global-gaming-estonia/test1/dev/scss/components/dashboard-modal/_dashboard-modal-table.scss */
+.dashboard-modal .thead__item:first-child {
+  padding-left: 15px; }
+
+/* line 115, C:/wamp/www/proovitood/global-gaming-estonia/test1/dev/scss/components/dashboard-modal/_dashboard-modal-table.scss */
+.dashboard-modal .tbody__item {
+  text-align: left;
+  height: 40px;
+  vertical-align: middle; }
+
+/* line 120, C:/wamp/www/proovitood/global-gaming-estonia/test1/dev/scss/components/dashboard-modal/_dashboard-modal-table.scss */
+.dashboard-modal .tbody__item:first-child {
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+  padding-left: 15px; }
+
+/* line 125, C:/wamp/www/proovitood/global-gaming-estonia/test1/dev/scss/components/dashboard-modal/_dashboard-modal-table.scss */
+.dashboard-modal .tbody__item:last-child {
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px; }
+
+/* line 129, C:/wamp/www/proovitood/global-gaming-estonia/test1/dev/scss/components/dashboard-modal/_dashboard-modal-table.scss */
+.dashboard-modal .tbody__row {
+  padding-bottom: 2px; }
+
+/* line 132, C:/wamp/www/proovitood/global-gaming-estonia/test1/dev/scss/components/dashboard-modal/_dashboard-modal-table.scss */
+.dashboard-modal .tbody__row--active {
+  color: #fff;
+  background-color: #50c14e; }
+
+/* line 136, C:/wamp/www/proovitood/global-gaming-estonia/test1/dev/scss/components/dashboard-modal/_dashboard-modal-table.scss */
+.dashboard-modal .tbody__row--active .tbody__remove {
+  display: inline-block; }
+
+/* line 139, C:/wamp/www/proovitood/global-gaming-estonia/test1/dev/scss/components/dashboard-modal/_dashboard-modal-table.scss */
+.dashboard-modal .tbody__remove {
+  display: none;
+  cursor: pointer;
+  background-image: url(../img/icon-remove.png);
+  background-repeat: no-repeat;
+  width: 21px;
+  height: 20px; }
+
+/* line 3, C:/wamp/www/proovitood/global-gaming-estonia/test1/dev/scss/components/dashboard-modal/_dashboard-modal-footer.scss */
+.dashboard-modal .footer__btns {
+  float: right;
+  margin-top: 32px;
+  margin-right: 22px;
+  margin-bottom: 15px; }
+
+/* line 9, C:/wamp/www/proovitood/global-gaming-estonia/test1/dev/scss/components/dashboard-modal/_dashboard-modal-footer.scss */
+.dashboard-modal .footer__btn {
+  cursor: pointer;
+  display: inline-block;
+  font-size: 12px;
+  font-weight: bold;
+  color: #a2a2a2;
+  text-transform: uppercase;
+  border-radius: 8px;
+  margin-right: 8px;
+  padding-left: 27px;
+  padding-right: 27px;
+  height: 40px;
+  line-height: 40px;
+  -webkit-box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.3); }
+
+/* line 27, C:/wamp/www/proovitood/global-gaming-estonia/test1/dev/scss/components/dashboard-modal/_dashboard-modal-footer.scss */
+.dashboard-modal .footer__btn--highlighted {
+  color: #5093e1;
+  font-weight: bold; }
+
+/*# sourceMappingURL=style.css.map */

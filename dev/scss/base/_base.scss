@@ -1,0 +1,31 @@
+
+body {
+    background: #05a7c3;
+    background: -moz-linear-gradient(top,  #05a7c3 0%, #0db6b1 50%, #07abc0 100%);
+    background: -webkit-linear-gradient(top,  #05a7c3 0%,#0db6b1 50%,#07abc0 100%);
+    background: linear-gradient(to bottom,  #05a7c3 0%,#0db6b1 50%,#07abc0 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#05a7c3', endColorstr='#07abc0',GradientType=0 );
+
+    background-attachment: fixed;
+
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
+
+
+
+
+
+
+
+
+

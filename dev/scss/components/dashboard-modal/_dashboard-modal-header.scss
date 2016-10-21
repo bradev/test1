@@ -1,0 +1,48 @@
+.dashboard-modal {
+
+    .nav {
+        margin-top:35px;
+        margin-left: 10px;
+    }
+    .nav__item {
+        cursor: pointer;
+        display: inline-block;
+        position: relative;
+        text-align: left;
+        font-size: 16px;
+        margin-right: 36px;
+        margin-bottom: 30px;
+        color: $fadedText;
+    }
+    .nav__item--active {
+        color: $mainText;
+    }
+    .nav__item--active:after {
+        content: '';
+        position: absolute;
+        background-color: $mainTheme;
+        left: 0;
+        bottom: -31px;
+        width: 100%;
+        height: 4px;
+    }
+
+    .create-new, .close-modal {
+        cursor: pointer;
+        position: absolute;
+    }
+    .create-new {
+        color: $mainTheme;
+        top: 36px;
+    }
+    .close-modal {
+        top: 27px;
+        right: 16px;
+        width: 34px;
+        height: 29px;
+        background-image: url(../img/icon-close.png);
+    }
+
+}
+
+

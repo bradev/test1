@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Test 1</title>
+
+    <!--  All styles -->
+    <link rel="stylesheet" href="css/style.min.css">
+
+</head>
+<body>
+
+    <div class="dashboard-modal">
+        <div class="dashboard-modal__inside">
+
+            <!--  Header  -->
+            <div class="clearfix">
+
+                <div class="dashboard-modal__col-left">
+                    <div class="create-new">Create new</div>
+                </div>
+
+                <div class="dashboard-modal__col-right">
+                    <div class="nav">
+                        <div class="nav__item nav__item--active">Reservation</div>
+                        <div class="nav__item">Walk-in</div>
+                    </div>
+                    <div class="close-modal"></div>
+                </div>
+
+            </div>
+            <div class="divider"></div>
+
+            <!--  Content  -->
+            <div class="clearfix">
+
+                <div class="dashboard-modal__col-left">
+                    <div class="shearch">
+                        <input class="shearch__input" type="search" name="search"  placeholder="Shearch by guest name or mobile">
+                    </div>
+
+                    <div class="reservation">
+                        <h2 class="heading">Reservation details</h2>
+
+                        <table class="reservation__table">
+                            <tr class="reservation__table-row">
+                                <td class="reservation__table-col">Date</td>
+                                <td class="reservation__table-col">Wed, Jun 16</td>
+                                <td class="reservation__table-col">
+                                    <div class="reservation__nav">
+                                        <div class="reservation__nav-left"></div>
+                                        <div class="reservation__nav-right"></div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr class="reservation__table-row">
+                                <td class="reservation__table-col">Time</td>
+                                <td class="reservation__table-col">08:15 PM</td>
+                                <td class="reservation__table-col">
+                                    <div class="reservation__nav">
+                                        <div class="reservation__nav-left"></div>
+                                        <div class="reservation__nav-right"></div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr class="reservation__table-row">
+                                <td class="reservation__table-col">Covers</td>
+                                <td class="reservation__table-col">11</td>
+                                <td class="reservation__table-col">
+                                    <div class="reservation__nav">
+                                        <div class="reservation__nav-left"></div>
+                                        <div class="reservation__nav-right"></div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr class="reservation__table-row">
+                                <td class="reservation__table-col">Tat</td>
+                                <td class="reservation__table-col">01:30h</td>
+                                <td class="reservation__table-col">
+                                    <div class="reservation__nav">
+                                        <div class="reservation__nav-left"></div>
+                                        <div class="reservation__nav-right"></div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr class="reservation__table-row">
+                                <td class="reservation__table-col">Notes</td>
+                                <td colspan="2" class="reservation__table-col reservation__table-col--text-box">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at hendrerit enim.</td>
+                            </tr>
+                            <tr class="reservation__row">
+                                <td class="reservation__table-col">Origin</td>
+                                <td colspan="2" class="reservation__table-col">
+                                    <div class="reservation__origin clearfix">
+                                        <div class="reservation__origin-choice reservation__origin-choice--active">Phone</div>
+                                        <div class="reservation__origin-choice ">In-person</div>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+
+                    </div>
+                </div>
+
+                <div class="dashboard-modal__col-right">
+                    <div class="big-plus"></div>
+                    <div class="wrapper">
+
+                        <div class="availability">23 tables available</div>
+                        <h2 class="heading">Table details</h2>
+
+                        <div class="classification">
+                            <div class="classification-part">Section</div>
+                            <div class="classification-part">Table type</div>
+                            <div class="classification-part">Table #</div>
+                        </div>
+
+                        <div class="filter">
+                            <div class="filter-instruction">Apply filters</div>
+                            <div class="filter-list">
+                                <div class="filter-list-item">Dinner</div>
+                                <div class="filter-list-item">Cool</div>
+                            </div>
+                            <div class="filter-add"></div>
+                        </div>
+                    </div>
+
+                    <table class="table">
+                        <thead class="thead">
+                            <tr>
+                                <th class="thead__item">#</th>
+                                <th class="thead__item">Section</th>
+                                <th class="thead__item">Type</th>
+                                <th class="thead__item">Min</th>
+                                <th class="thead__item">Max</th>
+                                <th class="thead__item">Blocked</th>
+                            </tr>
+                        </thead>
+                        <tbody class="tbody">
+                            <tr class="tbody__row">
+                                <td class="tbody__item tbody__item--pos">3A</td>
+                                <td class="tbody__item tbody__item--section">Patio</td>
+                                <td class="tbody__item tbody__item--type">Private dining</td>
+                                <td class="tbody__item tbody__item--min">2</td>
+                                <td class="tbody__item tbody__item--max">4</td>
+                                <td class="tbody__item tbody__item--blocked">-</td>
+                                <td class="tbody__item tbody__item--remove"><span class="tbody__remove"></span></td>
+                            </tr>
+                            <tr class="tbody__row">
+                                <td class="tbody__item">3B</td>
+                                <td class="tbody__item">Patio</td>
+                                <td class="tbody__item">Private dining</td>
+                                <td class="tbody__item">2</td>
+                                <td class="tbody__item">4</td>
+                                <td class="tbody__item">VIP</td>
+                                <td class="tbody__item"><span class="tbody__remove"></span></td>
+                            </tr>
+                            <tr class="tbody__row tbody__row--active">
+                                <td class="tbody__item tbody__item--pos">4</td>
+                                <td class="tbody__item tbody__item--section">Ground Floor</td>
+                                <td class="tbody__item tbody__item--type">VIP only</td>
+                                <td class="tbody__item tbody__item--min">4</td>
+                                <td class="tbody__item tbody__item--max">12</td>
+                                <td class="tbody__item tbody__item--blocked">Owner</td>
+                                <td class="tbody__item tbody__item--remove"><span class="tbody__remove"></span></td>
+                            </tr>
+                            <tr class="tbody__row">
+                                <td class="tbody__item tbody__item--pos">5A</td>
+                                <td class="tbody__item tbody__item--section">Patio</td>
+                                <td class="tbody__item tbody__item--type">Private dining</td>
+                                <td class="tbody__item tbody__item--min">2</td>
+                                <td class="tbody__item tbody__item--max">4</td>
+                                <td class="tbody__item tbody__item--blocked">-</td>
+                                <td class="tbody__item tbody__item--remove"><span class="tbody__remove"></span></td>
+                            </tr>
+                            <tr class="tbody__row">
+                                <td class="tbody__item">5B</td>
+                                <td class="tbody__item">Patio</td>
+                                <td class="tbody__item">Private dining</td>
+                                <td class="tbody__item">2</td>
+                                <td class="tbody__item">4</td>
+                                <td class="tbody__item">VIP</td>
+                                <td class="tbody__item"><span class="tbody__remove"></span></td>
+                            </tr>
+                            <tr class="tbody__row">
+                                <td class="tbody__item tbody__item--pos">13</td>
+                                <td class="tbody__item tbody__item--section">Patio</td>
+                                <td class="tbody__item tbody__item--type">Private dining</td>
+                                <td class="tbody__item tbody__item--min">2</td>
+                                <td class="tbody__item tbody__item--max">4</td>
+                                <td class="tbody__item tbody__item--blocked">-</td>
+                                <td class="tbody__item tbody__item--remove"><span class="tbody__remove"></span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                </div>
+
+            </div>
+
+            <!--  Footer  -->
+            <div class="footer clearfix">
+                <div class="footer__btns">
+                    <div class="footer__btn">Reset</div>
+                    <div class="footer__btn footer__btn--highlighted">Create reservation</div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+</body>
+</html>
